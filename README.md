@@ -6,6 +6,7 @@ Use them with cron accordingly to your backup schedule.
 
 # delete-failed-and-redo-failed-by-age.sh
 Pretty simple — sometimes full backups fail, this one deletes failed backups and asks for anothers.
+
 You could use it early in the morning, when usual backup schedule should be already completed.
 
 # passive-barman-node-resync.sh
