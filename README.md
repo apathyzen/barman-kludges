@@ -12,7 +12,7 @@ You could use it early in the morning, when usual backup schedule should be alre
 # passive-barman-node-resync.sh
 There's a strange issue on passive node when barman reports
 
-	ERROR: Failed to retrieve the primary node status: sync-info execution on remote primary server
+	ERROR: Failed to retrieve the primary node status: sync-info execution on remote primary server failed: usage: barman sync-info [-h] [--primary]
 
 This one forces barman to sync-info, sync wals and then resync backups with primary node.
 Works good when set to run every two hours or so.
